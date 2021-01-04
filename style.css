@@ -1,0 +1,83 @@
+body{
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+}
+section{
+   
+    height: 500px;
+}
+.top-banner{
+    background-image:url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.box{
+    float: left;
+    width: 40%;
+    margin-left: 4%;
+    padding-left: 2.5%;
+    
+
+}
+.box img{
+    width: 100%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+p{
+    color: dimgray;
+    text-align: justify;
+    font-size: 18px;
+}
+.dream-job{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 120px;
+}
+.experience{
+    margin-top: 100px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.container{
+    background-color: white;
+    padding-right: 15px;
+    height: 350px;;
+    box-shadow: 10px 15px 30px rgb(114, 110, 110);
+    
+    
+}
+#full-stack{
+    border-left: 8px solid;
+    border-image: linear-gradient( 180deg,teal,aqua);
+    border-image-slice: 1;
+}
+#beginner{
+    border-left: 8px solid;
+    border-image: linear-gradient( 180deg,	indigo,	fuchsia);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: dimgray;
+}
+.orange-highlight{
+    color: orange;
+}
+.button{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 25px;
+    background-image: linear-gradient(45deg,gold, rgb(243, 146, 28));
+    color: white;
+}
